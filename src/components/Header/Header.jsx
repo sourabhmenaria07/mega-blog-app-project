@@ -35,12 +35,12 @@ export default function Header() {
   ];
 
   return (
-    <header className="py-3 shadow bg-gray-500">
+    <header className="py-3 shadow bg-[#fdbde3]">
       <Container>
         <nav className="flex">
           <div className="mr-4">
             <Link to="/">
-              <Logo width="70px" />
+              <Logo width="100px" />
             </Link>
           </div>
           <ul className="flex ml-auto">
@@ -49,7 +49,7 @@ export default function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className="inline-block px-6 py-2 duration-200 hover:bg-blue-100 rounded-full"
+                    className="inline-block px-6 py-2 mr-4 duration-200 bg-[#e9d0ff] hover:bg-blue-100 rounded-full"
                   >
                     {item.name}
                   </button>

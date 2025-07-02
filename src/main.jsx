@@ -11,10 +11,11 @@ import {
   RouterProvider,
   Routes,
 } from "react-router-dom";
-import { AuthLayout, Login } from "./components/index.js";
+import { AuthLayout } from "./components/index.js";
 import AllPosts from "./pages/AllPosts.jsx";
 import AddPost from "./pages/AddPost.jsx";
 import Signup from "./pages/Signup.jsx";
+import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
 import Post from "./pages/Post.jsx";
 import EditPost from "./pages/EditPost.jsx";
