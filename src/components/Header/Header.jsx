@@ -35,7 +35,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="py-3 shadow bg-[#fdbde3]">
+    <header className="py-3 shadow bg-[#253245]">
       <Container>
         <nav className="flex">
           <div className="mr-4">
@@ -49,7 +49,7 @@ export default function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className="inline-block px-6 py-2 mr-4 duration-200 bg-[#e9d0ff] hover:bg-blue-100 rounded-full"
+                    className="inline-block px-6 py-2 mr-4 duration-200 bg-[#e9d0ff] hover:bg-[#d6a3ff] rounded-full"
                   >
                     {item.name}
                   </button>
